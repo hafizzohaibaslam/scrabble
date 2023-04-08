@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Game Info</title>
+	<link rel="stylesheet" href="styles.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+	
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<style>
+body {
+	
+    font-family: 'Alkatra', cursive;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+.s{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+  }
+nav {
+		display: flex;
+	}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+	list-style: none;
+  
+}
+	
+nav li {
+
+padding:10px 30px;
+margin-left: 30px;
+
+}
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    margin-left: 30PX;
+    padding-left: 5px;
+ }
+nav a 
+{		
+		color: #ffffff;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 0.5em;
+		transition: background-color 0.3s ease;
+}
+	
+nav a:hover
+{
+		background-color: #ffffff;
+		color: #3e3e3e;
+}
+	
+	
+	
+main {
+		padding: 40px;
+		margin: 30px;
+	}
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 20px ;
+}
+
+.info h2 {
+  color: #ef6c00a6;
+  width: 30%;
+  text-align: left;
+  border: none;
+  border-radius: 10px;
+  font-size: 50PX;
+  
+
+  
+  
+}
+
+.info p {
+  width: 70%;
+  text-align: justify;
+  line-height: 1.5;
+}
+	
+	
+	
+ol, ul {
+		margin-bottom: 1em;
+		padding-left: 1.5em;
+		color: #333333;
+}
+	
+	li {
+		margin-bottom: 0.5em;
+	}
+	.img-container
+	{
+		margin-left: 200px;
+		padding: 20px;
+
+	}
+	.img-container img{
+	
+	border-radius: 50px;
+		
+	}
+	.img-container img:hover{
+	transform: scale(1.3,1.3);
+	transition: 0.5s;
+	}
+	
+	
+		
+	.video {
+	margin-top: 100px;
+   	 text-align: center;
+	 height: 100%;
+	 width: 100%;
+			
+	}
+
+
+
+
+
+	footer {
+		background-color: black;
+		color: #ffffff;
+		padding: 1em;
+		text-align: center;
+	}
+	
+	footer p {
+		margin: 0;
+		padding: 0;
+	}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+	<header>
+        <h1><span class="s">S</span>crabble</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+		<section class="info">
+			<h2>History</h2>
+			<p>Scrabble is a word game that was invented in the United States by an architect named <b>Alfred Mosher</b>
+			Butts in 1938. Originally called <b>"Lexiko,"</b> the game was not successful until it was sold to James Brunot
+			in 1948, who made some changes to the rules and design, and renamed it "Scrabble." It quickly became a hit 
+			and was sold to Selchow and Righter, a game company that expanded it into international versions and a deluxe
+			 edition. Hasbro now owns the rights to the game, which remains one of the most popular board games in the
+			  world, with millions of copies sold every year.</p>
+
+			</section>
+			  <div class="img-container">
+                <img src="images/s.png" width="10%" height="15%">
+                <img src="images/c.png" width="10%" height="20%">
+                <img src="images/r.png" width="10%" height="20%">
+                <img src="images/a.png" width="10%" height="22%">
+                <img src="images/b.png" width="9%" height="20%">
+                <img src="images/b2.png" width="10%" height="20%">
+                <img src="images/l.png" width="9%" height="20%">
+                <img src="images/e.png" width="10%" height="20%">
+
+
+
+            </div> 
+	<div class="container2">
+		<section class="info">
+			<h2>Rules</h2>
+			<ol>
+				<li>Players draw tiles and take turns forming words on a board.</li>
+				<li>Words score points based on the letters used.</li>
+				<li>Special squares on the board increase scores.</li>
+				<li>Using all seven tiles in one turn earns a bonus score.</li>
+				<li>Players can challenge invalid words.</li>
+				<li>The game ends when all tiles are used or all players pass twice..</li>
+				<li>The player with the highest score wins.</li>
+			</ol>
+		</section>
+		<section class="info">
+			<h2>Tips</h2>
+			<ul>
+				<li>Tip 1: Know the point value of each tile.</li>
+				<li>Tip 2: Use high-value letters on double/triple letter or word squares.</li>
+				<li>Tip 3: Look for opportunities to make multiple words at once.</li>
+				<li>Tip 4: Keep a balanced rack of vowels and consonants</li>
+				<li>Tip 5: Play defensively by blocking potential high-scoring squares.</li>
+			</ul>
+		</section>
+		
+		<div class="video">
+			<video width="560" height="315" controls>
+				<source src="images/video.mp4" type="video/mp4">
+			
+			</video>
+		</div>
+	</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Game Company. All rights reserved.</p>
+	</footer>
+</body>
+</html>
